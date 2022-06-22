@@ -17,20 +17,34 @@ class App extends Component {
      * @private
      */
     _fetchAll() {
-        const request1 = axios({
-            url: 'http://httpbin.org/get',
-            params: {name: 'why', age: 18}
-        });
-        const request2 = axios({
-            url: 'http://httpbin.org/post',
-            data: {name: 'why', age: 18},
-            method: 'post'
-        });
+        // const request1 = axios({
+        //     url: 'http://httpbin.org/get',
+        //     params: {name: 'why', age: 18}
+        // });
+        // const request2 = axios({
+        //     url: 'http://httpbin.org/post',
+        //     data: {name: 'why', age: 18},
+        //     method: 'post'
+        // });
+        //
+        // axios.all([request1, request2]).then(res => {
+        //     console.log(res);
+        // }).catch(error => {
+        //     console.log(error);
+        // })
 
-        axios.all([request1, request2]).then(res => {
+        const promise1 = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve('promise1');
+            }, 1000);
+        });
+        const promise2 = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve('promise2');
+            }, 3000);
+        });
+        Promise.all([promise1, promise2]).then(res => {
             console.log(res);
-        }).catch(error => {
-            console.log(error);
         })
     }
 
