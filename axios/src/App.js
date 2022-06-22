@@ -13,6 +13,23 @@ class App extends Component {
     }
 
     /**
+     * 创建新的实例：每个实例可以拥有自己特殊的配置
+     * @private
+     */
+    _fetchInstanceCreate() {
+        const instance1 = axios.create({
+            baseURL: 'http://111111xxxxxx',
+            timeout: 5000,
+            headers: {}
+        });
+        const instance2 = axios.create({
+            baseURL: 'http://22222xxxxxx',
+            timeout: 3000,
+            headers: {}
+        })
+    }
+
+    /**
      * 合并多个网络请求
      * @private
      */
