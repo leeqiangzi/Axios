@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from "axios";
+import request from "./service/request";
 
 class App extends Component {
     constructor(props) {
@@ -9,7 +10,21 @@ class App extends Component {
 
     componentDidMount() {
 
-        this._fetchInterceptor();
+        this._fetchMyRequest();
+    }
+
+    /**
+     * 自己封装的网络请求
+     * @private
+     */
+    _fetchMyRequest() {
+        request({
+            url: "/get",
+            params: {
+                name: 'why',
+                age: 18
+            }
+        }).then(console.log);
     }
 
     // 拦截器

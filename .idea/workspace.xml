@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6c367a9-d5f4-4637-a796-6b55cfe25f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/axios/src/service/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/src/service/request.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/axios/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/axios/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/axios/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/axios/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/axios/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/axios/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/axios/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/axios/src/App.js" afterDir="false" />
@@ -12,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +106,7 @@
       <updated>1655820844030</updated>
       <workItem from="1655820846654" duration="573000" />
       <workItem from="1655879066468" duration="1521000" />
-      <workItem from="1655984404102" duration="1305000" />
+      <workItem from="1655984404102" duration="2130000" />
     </task>
     <servers />
   </component>
