@@ -15,6 +15,9 @@ class App extends Component {
 
     /**
      * 自己封装的网络请求
+     * 1111111
+     * 222222
+     * 333333
      * @private
      */
     _fetchMyRequest() {
